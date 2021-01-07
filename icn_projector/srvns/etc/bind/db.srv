@@ -1,0 +1,6 @@
+$TTL   60000
+@    IN SOA srvns.srv. root.srvns.srv. 2006031201 28800 14400 3600000 0
+
+srv.    IN NS srvns.srv.
+srvns.srv.     IN A 15.0.0.11
+web.srv.    IN A 20.0.0.2
